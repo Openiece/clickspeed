@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(71, 255, 194);
+}
+.clicker {
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(129, 244, 255);
+    font-size: large;
+}
+.butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.score {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
