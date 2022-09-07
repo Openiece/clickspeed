@@ -13,7 +13,7 @@ body {
     justify-content: center;
     margin-top: 100px;
 }
-.score {
+#score {
     margin-top: 50px;
     display: flex;
     justify-content: center;
