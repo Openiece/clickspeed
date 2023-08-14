@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     <link rel = "icon" href = "th (3).jpeg">
-    <link rel="stylesheet" href="/Users/yomama/FilmScript/clickspeed/main.css">
+    <link rel="stylesheet" href="./main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClickSpeedTester</title>
 </head>
 <body>
-    <div id="score" >0</div>
-    <div class="butt">
-        <button class="clicker" onclick="count()">Click Here</button>
+    <img id="logo" src="click-speed-test.webp" />
+    <div id="content">
+      Timer: <span id="timer"></span><br/>
+      Score: <span id="score"></span><br/>
+      Clicks/s: <span id="clicks"></span>
+    </div>
+    <div id="clickarea">
+      <button id="start">Start</button>
     </div>
 </body>
 <script src="./main.js"></script>
